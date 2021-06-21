@@ -1,0 +1,31 @@
+*{
+    background-color:#F2F2F2;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif;
+}
+@font-face {
+    font-family: 'curvyregular';
+    src: url('/fonts/curvy-webfont.woff2') format('woff2');
+}
+h1{
+
+    text-align: center;
+    font-size: 68px;
+    margin-bottom: 1%;   
+    font-family: "curvyregular";
+    margin-top: 15%;
+}  
+h2{
+    font-family: "curvyregular";
+    text-align: center;
+    line-height: 2  4px;   
+}
+h3{
+    font-size: smaller;
+}
+body{
+    
+    text-align: center;
+}
