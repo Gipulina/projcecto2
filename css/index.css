@@ -10,22 +10,24 @@
     src: url('/fonts/curvy-webfont.woff2') format('woff2');
 }
 h1{
-
-    text-align: center;
-    font-size: 68px;
+    font-size: 83px;
     margin-bottom: 1%;   
     font-family: "curvyregular";
     margin-top: 15%;
+    color: #F26849;
 }  
 h2{
-    font-family: "curvyregular";
-    text-align: center;
-    line-height: 2  4px;   
+    color: #93BAD9;
 }
-h3{
+header{
+    text-align: center;
+}
+.projecto{
+    color:#93BAD9; 
     font-size: smaller;
-}
-body{
-    
-    text-align: center;
+    font-family:'Tahoma';
+    line-height: 24px;
+ }
+nav{
+    color:brown;
 }
