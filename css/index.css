@@ -55,7 +55,10 @@ form, .login, label b, span, label, h5{
     background: #F2EBD5;
     font-family: 'Tahoma';  
 }
-.projecto a:hover, div.portfolio .login:hover{
+.login img{
+    background-color:transparent;
+}
+.projecto a:hover, div.portfolio .login:hover, .login img:hover{
     background-color: #F26849;
     color: white;
 }
@@ -100,4 +103,34 @@ nav ul{
 }
 .portfolio img{
     background-color: #F2EBD5;
+}
+section article{
+    height: 160px;
+    width: 200px;
+    float: left;
+}
+section h2{
+    height: 160px;
+    width: 200px;
+    float: left;
+    color: #F26849;
+    margin-right: 2px;
+    margin-left: 17px;
+    font-family: curvyregular;
+    letter-spacing: 5px;
+}
+article {
+    background-color: #F2EBD5;
+    margin: 5px 5px 0 0 ;
+    border-radius: 3px;
+    padding:10px;
+    box-shadow: brown;
+}
+article strong{
+    background-color: #F2EBD5;
+color: #9BBDD4;
+}
+.cv{
+    margin-bottom: 108px;
+    height: 300px;
 }
