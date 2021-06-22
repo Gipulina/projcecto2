@@ -37,23 +37,19 @@ h2{
   .button, input .button {
     transition-duration: 0.4s;
   }
-  
   .button:hover, input .button {
     background-color: #F26849;
     color: white;
   }
 header{
     text-align: center;
-}
-{
-
+    font-size: 30px;
 }
 .login{  
     width: 382px;  
     margin-left: 27%;
     padding:44px 44px 44px 75px;
     border-radius: 15px;     
-    
 } 
 form, .login, label b, span, label, h5{ 
     background: #F2EBD5;
@@ -85,4 +81,17 @@ nav li{
 }
 nav ul{
     list-style:none;
+}
+.foto{
+    float:left;
+}
+.perfil{
+    font-family: curvyregular;
+    text-align: left;
+    background: #F2EBD5;
+    font-size: 22px;
+    padding: 18px;
+    margin-top: 30px;
+    margin-left: 55%;
+    margin-right: 10%;
 }
