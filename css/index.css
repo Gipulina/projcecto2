@@ -59,7 +59,11 @@ form, .login, label b, span, label, h5{
     background: #F2EBD5;
     font-family: 'Tahoma';  
 }
-.projecto{
+.projecto a:hover{
+    background-color: #F26849;
+    color: white;
+}
+.projecto, .projecto a {
     color:#93BAD9; 
     font-size: smaller;
     font-family:'Tahoma';
