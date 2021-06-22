@@ -13,16 +13,27 @@
         <h4>Diseño Web Front End - Trabajo Práctico 2</h4>
     </div>
     <header>
-        <h1>Georgina Palavecino</h1>
-        <h2>Porfolio Online</h2>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="perfil.html">Perfil</a></li>            
-            <li><a href="curriculum.html">CV</a></li>
-            <li><a href="trabajos.html">Portfolio</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+        <h1 class=title >Portfolio Online</h1>
 
-    </nav>
+    </header>
+    <div class="login">    
+    <form id="login" method="get" action="login.php"> 
+        <label><b>Usuario</b>    
+        </label>
+        <br> 
+        <input type="text" name="Uname" id="Uname" placeholder="Usuario">    
+        <br><br> 
+        <label><b>Contraseña</b>    
+        </label> 
+        <br>   
+        <input type="Password" name="Pass" id="Pass" placeholder="Contraseña">    
+        <br><br>   
+        <a href="paginaprincipal.html" class="button"><input type="button" name="log" id="log" value="Ingresar al perfil" class="button"></a>
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br>
+        <h5>Forgot <a href="#" style="background-color: #F2EBD5;">Password</a></h5>
+    </form>     
+</div>    
 </body>

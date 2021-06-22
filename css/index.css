@@ -17,11 +17,47 @@ h1{
     color: #F26849;
     letter-spacing: 10px;
 }  
+.title{
+    margin-top:5%;
+    margin-left:-222px;
+}
 h2{
     color: #93BAD9;
 }
+.button, input .button {
+    background-color: #9BBDD4;
+    border: none;
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+    display: inline-block;
+    font-size: 15px;  
+    padding-right: 4px;
+  }
+  .button, input .button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover, input .button {
+    background-color: #F26849;
+    color: white;
+  }
 header{
     text-align: center;
+}
+{
+
+}
+.login{  
+    width: 382px;  
+    margin-left: 27%;
+    padding:44px 44px 44px 75px;
+    border-radius: 15px;     
+    
+} 
+form, .login, label b, span, label, h5{ 
+    background: #F2EBD5;
+    font-family: 'Tahoma';  
 }
 .projecto{
     color:#93BAD9; 
