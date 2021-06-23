@@ -124,13 +124,43 @@ article {
     margin: 5px 5px 0 0 ;
     border-radius: 3px;
     padding:10px;
-    box-shadow: brown;
 }
-article strong{
+form h4{
+    background-color: #F2EBD5;
+}
+article strong, form strong{
     background-color: #F2EBD5;
 color: #9BBDD4;
 }
 .cv{
     margin-bottom: 108px;
     height: 300px;
+}
+form{
+    margin-top:30px;
+    padding:10px;
+    width: 400px;
+    margin-left: 35%;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid;    
+    color: #F26849;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 10px;
+    margin-top: 10px
+  }
+  input{
+      color:#F26849;
+  }
+.sent{
+    text-align: center;
+}
+.sent h1{
+    font-size: 50px;
+    margin-top:160px;
 }
