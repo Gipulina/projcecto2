@@ -51,7 +51,7 @@ header{
     padding:44px 44px 44px 75px;
     border-radius: 15px;     
 } 
-form, .login, label b, span, label, h5{ 
+form, label b, span, label, h5{ 
     background: #F2EBD5;
     font-family: 'Tahoma';  
 }
@@ -144,6 +144,9 @@ form{
     padding:10px;
     width: 400px;
     margin-left: 35%;
+}
+div form {
+    width: 188px;
 }
 textarea {
     width: 100%;
