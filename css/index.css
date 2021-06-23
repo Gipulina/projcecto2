@@ -76,6 +76,7 @@ nav{
     margin-top: 50px;
     margin-left:30%;
     font-size: 20px;
+
 }
 nav li{
     float:left;
@@ -84,6 +85,8 @@ nav li{
 }
 nav ul{
     list-style:none;
+    margin-bottom:28px;
+    padding-bottom:28px;
 }
 .foto{
     float:left;
