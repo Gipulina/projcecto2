@@ -62,6 +62,7 @@ form, label b, span, label, h5{
     background-color: #F26849;
     color: white;
 }
+
 .projecto, .projecto a {
     color:#93BAD9; 
     font-size: smaller;
@@ -103,6 +104,9 @@ nav ul{
 }
 .portfolio{
     padding-left: 11%;
+}
+.portfolio .login{
+    background-color: #F2EBD5;
 }
 .portfolio img{
     background-color: #F2EBD5;
